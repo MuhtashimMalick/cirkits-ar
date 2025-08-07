@@ -75,14 +75,14 @@
   <a-scene embedded
     arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;'
     xr-mode-ui="enabled: false" id="scene" renderer='logarithmicDepthBuffer: true;' gesture-detector>
-    <a-marker type="pattern" preset="custom" url="patterns/pattern-wireless-card.patt" smooth="true" smoothCount="5"
+    <a-marker gesture-handler type="pattern" preset="custom" url="patterns/pattern-wireless-card.patt" smooth="true" smoothCount="5"
       smoothTolerance="0.005" smoothThreshold="1" markerhandler>
       <a-entity obj-model="obj: url(resources/combined_wireless.obj); mtl: url(resources/combined_wireless.mtl)"
         sound="src: url(resources/VO_Wireless.mp3); autoplay: false; distanceModel: linear; rolloffFactor: 0; maxDistance: 10000"
         scale="0.1 0.1 0.1">
       </a-entity>
     </a-marker>
-    <a-marker type="pattern" preset="custom" url="patterns/pattern-graphics-card.patt" smooth="true" smoothCount="5"
+    <a-marker gesture-handler type="pattern" preset="custom" url="patterns/pattern-graphics-card.patt" smooth="true" smoothCount="5"
       smoothTolerance="0.005" smoothThreshold="1" markerhandler>
       <a-entity
         obj-model="obj: url(resources/combined_graphics_card.obj); mtl: url(resources/combined_graphics_card.mtl)"
@@ -90,56 +90,56 @@
         scale="0.1 0.1 0.1">
       </a-entity>
     </a-marker>
-    <a-marker type="pattern" preset="custom" url="patterns/pattern-power-supply.patt" smooth="true" smoothCount="5"
+    <a-marker gesture-handler type="pattern" preset="custom" url="patterns/pattern-power-supply.patt" smooth="true" smoothCount="5"
       smoothTolerance="0.005" smoothThreshold="1" markerhandler>
       <a-entity obj-model="obj: url(resources/combined_psu.obj); mtl: url(resources/combined_psu.mtl)"
         sound="src: url(resources/VO_PSU.mp3); autoplay: false; distanceModel: linear; rolloffFactor: 0; maxDistance: 10000"
         scale="0.1 0.1 0.1">
       </a-entity>
     </a-marker>
-    <a-marker type="pattern" preset="custom" url="patterns/pattern-cpu.patt" smooth="true" smoothCount="5"
+    <a-marker gesture-handler type="pattern" preset="custom" url="patterns/pattern-cpu.patt" smooth="true" smoothCount="5"
       smoothTolerance="0.005" smoothThreshold="1" markerhandler>
       <a-entity obj-model="obj: url(resources/combined_cpu.obj); mtl: url(resources/combined_cpu.mtl)"
         sound="src: url(resources/VO_CPU.mp3); autoplay: false; distanceModel: linear; rolloffFactor: 0; maxDistance: 10000"
         scale="0.1 0.1 0.1">
       </a-entity>
     </a-marker>
-    <a-marker type="pattern" preset="custom" url="patterns/pattern-solid-state-drive.patt" smooth="true" smoothCount="5"
+    <a-marker gesture-handler type="pattern" preset="custom" url="patterns/pattern-solid-state-drive.patt" smooth="true" smoothCount="5"
       smoothTolerance="0.005" smoothThreshold="1" markerhandler>
       <a-entity obj-model="obj: url(resources/combined_ssd.obj); mtl: url(resources/combined_ssd.mtl)"
         sound="src: url(resources/VO_SSD.mp3); autoplay: false; distanceModel: linear; rolloffFactor: 0; maxDistance: 10000"
         scale="0.1 0.1 0.1">
       </a-entity>
     </a-marker>
-    <a-marker type="pattern" preset="custom" url="patterns/pattern-random-access-memory.patt" smooth="true"
+    <a-marker gesture-handler type="pattern" preset="custom" url="patterns/pattern-random-access-memory.patt" smooth="true"
       smoothCount="5" smoothTolerance="0.005" smoothThreshold="1" markerhandler>
       <a-entity obj-model="obj: url(resources/combined_ram.obj); mtl: url(resources/combined_ram.mtl)"
         sound="src: url(resources/VO_RAM.mp3); autoplay: false; distanceModel: linear; rolloffFactor: 0; maxDistance: 10000"
         scale="0.1 0.1 0.1">
       </a-entity>
     </a-marker>
-    <a-marker type="pattern" preset="custom" url="patterns/pattern-read-only-memory.patt" smooth="true" smoothCount="5"
+    <a-marker gesture-handler type="pattern" preset="custom" url="patterns/pattern-read-only-memory.patt" smooth="true" smoothCount="5"
       smoothTolerance="0.005" smoothThreshold="1" markerhandler>
       <a-entity obj-model="obj: url(resources/combined_rom.obj); mtl: url(resources/combined_rom.mtl)"
         sound="src: url(resources/VO_ROM.mp3); autoplay: false; distanceModel: linear; rolloffFactor: 0; maxDistance: 10000"
         scale="0.1 0.1 0.1">
       </a-entity>
     </a-marker>
-    <a-marker type="pattern" preset="custom" url="patterns/pattern-optical-drive.patt" smooth="true" smoothCount="5"
+    <a-marker gesture-handler type="pattern" preset="custom" url="patterns/pattern-optical-drive.patt" smooth="true" smoothCount="5"
       smoothTolerance="0.005" smoothThreshold="1" markerhandler>
       <a-entity obj-model="obj: url(resources/combined_optical.obj); mtl: url(resources/combined_optical.mtl)"
         sound="src: url(resources/VO_Optical.mp3); autoplay: false; distanceModel: linear; rolloffFactor: 0; maxDistance: 10000"
         scale="0.1 0.1 0.1">
       </a-entity>
     </a-marker>
-    <a-marker type="pattern" preset="custom" url="patterns/pattern-capture-card.patt" smooth="true" smoothCount="5"
+    <a-marker gesture-handler type="pattern" preset="custom" url="patterns/pattern-capture-card.patt" smooth="true" smoothCount="5"
       smoothTolerance="0.005" smoothThreshold="1" markerhandler>
       <a-entity obj-model="obj: url(resources/combined_capture_card.obj); mtl: url(resources/combined_capture_card.mtl)"
         sound="src: url(resources/VO_Capture.mp3); autoplay: false; distanceModel: linear; rolloffFactor: 0; maxDistance: 10000"
         scale="0.1 0.1 0.1">
       </a-entity>
     </a-marker>
-    <a-marker type="pattern" preset="custom" url="patterns/pattern-hard-drive.patt" smooth="true" smoothCount="5"
+    <a-marker gesture-handler type="pattern" preset="custom" url="patterns/pattern-hard-drive.patt" smooth="true" smoothCount="5"
       smoothTolerance="0.005" smoothThreshold="1" markerhandler>
       <a-entity obj-model="obj: url(resources/combined_hdd.obj); mtl: url(resources/combined_hdd.mtl)"
         sound="src: url(resources/VO_HDD.mp3); autoplay: false; distanceModel: linear; rolloffFactor: 0; maxDistance: 10000"
